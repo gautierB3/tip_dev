@@ -1,0 +1,17 @@
+                                          Table "public.dimtrip"
+     Column     |            Type             |                         Modifiers                          
+----------------+-----------------------------+------------------------------------------------------------
+ TripId         | integer                     | not null default nextval('"dimtrip_TripId_seq"'::regclass)
+ TripType       | character(5)                | 
+ itapudid       | text                        | 
+ Accountid      | text                        | 
+ servprvder     | integer                     | 
+ FirstDrivenum  | bigint                      | 
+ LastDrivenum   | bigint                      | 
+ TripStartTime  | timestamp without time zone | 
+ TripEndTime    | timestamp without time zone | 
+ TripDuration   | integer                     | 
+ TrailerVin     | character(17)               | 
+ TruckVin       | character(17)               | 
+ LastChangeDate | timestamp without time zone | default now()
+

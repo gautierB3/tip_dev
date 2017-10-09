@@ -1,0 +1,26 @@
+      Table "public.tmpsevent"
+    Column    |   Type   | Modifiers 
+--------------+----------+-----------
+ accountid    | text     | 
+ ambtemp      | integer  | 
+ bssid        | text     | 
+ bssid1       | text     | 
+ bssid2       | text     | 
+ bssid3       | text     | 
+ eventtime    | text     | 
+ drivenum     | bigint   | 
+ eventtype    | integer  | 
+ gpsloc       | text     | 
+ guid         | text     | 
+ schemavers   | integer  | 
+ sensor_dev   | smallint | 
+ snesor_id    | text     | 
+ sensor_pos   | smallint | 
+ sensor_press | smallint | 
+ sensor_stat  | smallint | 
+ sensor_temp  | bigint   | 
+ servprvder   | integer  | 
+ tpmstype     | integer  | 
+ itappin      | bigint   | 
+ itapudid     | text     | 
+

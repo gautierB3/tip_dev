@@ -1,0 +1,25 @@
+                List of relations
+ Schema |          Name          | Type  | Owner 
+--------+------------------------+-------+-------
+ public | absevent               | table | gaut
+ public | asyncevent             | table | gaut
+ public | brakeconditionevent    | table | gaut
+ public | dimdate                | table | gaut
+ public | dimdevices             | table | gaut
+ public | dimtrip                | table | gaut
+ public | dtcevent               | table | gaut
+ public | ebschangeevent         | table | gaut
+ public | fcttripevents          | table | gaut
+ public | gpstrackevent          | table | gaut
+ public | internalstatusevent    | table | gaut
+ public | loadevent              | table | gaut
+ public | longitudinalshockevent | table | gaut
+ public | poweroffevent          | table | gaut
+ public | poweroffslevent        | table | gaut
+ public | poweronevent           | table | gaut
+ public | rspevent               | table | gaut
+ public | statusevent            | table | gaut
+ public | tmpsevent              | table | gaut
+ public | verticalshockevent     | table | gaut
+(20 rows)
+

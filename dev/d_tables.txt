@@ -1,0 +1,124 @@
+                          Table "public.absevent"
+    Column     |            Type             |          Modifiers          
+---------------+-----------------------------+-----------------------------
+ accountid     | text                        | 
+ ambtemp       | integer                     | 
+ bssid         | text                        | 
+ bssid1        | text                        | 
+ bssid2        | text                        | 
+ bssid3        | text                        | 
+ eventtime     | text                        | 
+ drivenum      | bigint                      | 
+ duration      | integer                     | 
+ endspeed      | integer                     | 
+ eventtype     | integer                     | 
+ gpsloc        | text                        | 
+ guid          | text                        | 
+ maxbrakepress | integer                     | 
+ maxlatacc     | integer                     | 
+ maxlongacc    | integer                     | 
+ schemavers    | integer                     | 
+ servprvder    | integer                     | 
+ startspeed    | integer                     | 
+ warnlampstat  | integer                     | 
+ itappin       | bigint                      | 
+ itapudid      | text                        | 
+ created_at    | timestamp without time zone | default ('now'::text)::date
+
+                       Table "public.asyncevent"
+   Column   |            Type             |          Modifiers          
+------------+-----------------------------+-----------------------------
+ accountid  | text                        | 
+ bssid      | text                        | 
+ bssid1     | text                        | 
+ bssid2     | text                        | 
+ bssid3     | text                        | 
+ eventtime  | text                        | 
+ drivenum   | bigint                      | 
+ driverdid  | text                        | 
+ drivertel  | text                        | 
+ eventtype  | integer                     | 
+ gpsloc     | text                        | 
+ guid       | text                        | 
+ schemavers | integer                     | 
+ servprvder | integer                     | 
+ trailervin | text                        | 
+ truckvin   | text                        | 
+ itappin    | bigint                      | 
+ itapudid   | text                        | 
+ created_at | timestamp without time zone | default ('now'::text)::date
+
+                          Table "public.brakeconditionevent"
+          Column           |            Type             |          Modifiers          
+---------------------------+-----------------------------+-----------------------------
+ accountid                 | text                        | 
+ avg_long_acc_1to2bar      | smallint                    | 
+ max_long_acc_1to2bar      | smallint                    | 
+ num_brake_app_1to2bar     | smallint                    | 
+ p_avg_brake_app_1to2bar   | smallint                    | 
+ t_avg_brake_app_1to2bar   | smallint                    | 
+ t_max_brake_app_1to2bar   | smallint                    | 
+ avg_long_acc_2to3bar      | smallint                    | 
+ max_long_acc_2to3bar      | smallint                    | 
+ num_brake_app_2to3bar     | smallint                    | 
+ p_avg_brake_app_2to3bar   | smallint                    | 
+ t_avg_brake_app_2to3bar   | smallint                    | 
+ t_max_brake_app_2to3bar   | smallint                    | 
+ avg_long_acc_3to4bar      | smallint                    | 
+ max_long_acc_3to4bar      | smallint                    | 
+ num_brake_app_3to4bar     | smallint                    | 
+ p_avg_brake_app_3to4bar   | smallint                    | 
+ t_avg_brake_app_3to4bar   | smallint                    | 
+ t_max_brake_app_3to4bar   | smallint                    | 
+ avg_long_acc_4to5bar      | smallint                    | 
+ max_long_acc_4to5bar      | smallint                    | 
+ num_brake_app_4to5bar     | smallint                    | 
+ p_avg_brake_app_4to5bar   | smallint                    | 
+ t_avg_brake_app_4to5bar   | smallint                    | 
+ t_max_brake_app_4to5bar   | smallint                    | 
+ avg_long_acc_5to6bar      | smallint                    | 
+ max_long_acc_5to6bar      | smallint                    | 
+ num_brake_app_5to6bar     | smallint                    | 
+ p_avg_brake_app_5to6bar   | smallint                    | 
+ t_avg_brake_app_5to6bar   | smallint                    | 
+ t_max_brake_app_5to6bar   | smallint                    | 
+ avg_long_acc_above6bar    | smallint                    | 
+ max_long_acc_above6bar    | smallint                    | 
+ num_brake_app_above6bar   | smallint                    | 
+ p_avg_brake_app_above6bar | smallint                    | 
+ t_avg_brake_app_above6bar | smallint                    | 
+ t_max_brake_app_above6bar | smallint                    | 
+ avg_long_acc_below1bar    | smallint                    | 
+ max_long_acc_below1bar    | smallint                    | 
+ num_brake_app_below1bar   | smallint                    | 
+ p_avg_brake_app_below1bar | smallint                    | 
+ t_avg_brake_app_below1bar | smallint                    | 
+ t_max_brake_app_below1bar | smallint                    | 
+ avgload                   | bigint                      | 
+ avgspeed                  | integer                     | 
+ bssid                     | text                        | 
+ bssid1                    | text                        | 
+ bssid2                    | text                        | 
+ bssid3                    | text                        | 
+ eventtime                 | text                        | 
+ drivenum                  | bigint                      | 
+ eventtype                 | integer                     | 
+ gpsloc                    | text                        | 
+ guid                      | text                        | 
+ maxload                   | bigint                      | 
+ maxspeed                  | integer                     | 
+ minload                   | bigint                      | 
+ numvertaccband1           | bigint                      | 
+ numvertaccband2           | bigint                      | 
+ numvertaccband3           | bigint                      | 
+ numvertaccband4           | bigint                      | 
+ numvertaccband5           | bigint                      | 
+ numvertaccband6           | bigint                      | 
+ numvertaccband7           | bigint                      | 
+ schemavers                | integer                     | 
+ servprvder                | integer                     | 
+ tripdist                  | integer                     | 
+ itappin                   | bigint                      | 
+ itapudid                  | text                        | 
+ created_at                | timestamp without time zone | default ('now'::text)::date
+

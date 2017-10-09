@@ -1,0 +1,35 @@
+                 Table "public.dimdate"
+       Column        |         Type          | Modifiers 
+---------------------+-----------------------+-----------
+ DateId              | integer               | not null
+ Date                | date                  | not null
+ DayNum              | smallint              | not null
+ DaySuffix           | character(2)          | not null
+ Weekday             | smallint              | not null
+ WeekDayName         | character varying(10) | not null
+ IsWeekend           | boolean               | not null
+ IsHoliday           | boolean               | not null
+ HolidayText         | character varying(64) | 
+ DOWInMonth          | smallint              | not null
+ DayOfYear           | smallint              | not null
+ WeekOfMonth         | smallint              | not null
+ WeekOfYear          | smallint              | not null
+ ISOWeekOfYear       | smallint              | not null
+ MonthNum            | smallint              | not null
+ MonthName           | character varying(10) | not null
+ Quarter             | smallint              | not null
+ QuarterName         | character varying(6)  | not null
+ YearNum             | integer               | not null
+ MMYYYY              | character(6)          | not null
+ MonthYear           | character(7)          | not null
+ FirstDayOfMonth     | date                  | not null
+ LastDayOfMonth      | date                  | not null
+ FirstDayOfQuarter   | date                  | not null
+ LastDayOfQuarter    | date                  | not null
+ FirstDayOfYear      | date                  | not null
+ LastDayOfYear       | date                  | not null
+ FirstDayOfNextMonth | date                  | not null
+ FirstDayOfNextYear  | date                  | not null
+Indexes:
+    "PK__DateDime__40DF45E3290DE9C9" PRIMARY KEY, btree ("DateId")
+

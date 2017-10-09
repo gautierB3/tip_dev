@@ -1,0 +1,24 @@
+                 List of relations
+ Schema |          Name          | Type  |  Owner   
+--------+------------------------+-------+----------
+ public | absevent               | table | postgres
+ public | asyncevent             | table | postgres
+ public | brakeconditionevent    | table | postgres
+ public | dimdate                | table | postgres
+ public | dimtrip                | table | postgres
+ public | dtcevent               | table | postgres
+ public | ebschangeevent         | table | postgres
+ public | fcttripevents          | table | postgres
+ public | gpstrackevent          | table | postgres
+ public | internalstatusevent    | table | postgres
+ public | loadevent              | table | postgres
+ public | longitudinalshockevent | table | postgres
+ public | poweroffevent          | table | postgres
+ public | poweroffslevent        | table | postgres
+ public | poweronevent           | table | postgres
+ public | rspevent               | table | postgres
+ public | statusevent            | table | postgres
+ public | tmpsevent              | table | postgres
+ public | verticalshockevent     | table | postgres
+(19 rows)
+
